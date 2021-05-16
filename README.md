@@ -359,7 +359,7 @@ Si tienes un tema que pueda ayudar o encuentras algún error, por favor manda un
 # Desarrollo de software
 ## Python
 - Tutorial
-  - https://doc.lagout.org/programmation/python/Head%20First%20Python%2C%20First%20Edition%20%282010%29.pdf 
+  - http://index-of.es/Programming/Python/Head%20First%20Python,%20First%20Edition%20(2010).pdf 
 - Flask
   - https://www.digitalocean.com/community/tutorials/how-to-build-and-deploy-a-flask-application-using-docker-on-ubuntu-18-04 
 - Django
