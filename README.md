@@ -1,5 +1,5 @@
 # Preparación para entrevistas DevOps
-El propósito de este documento es prepara una serie de temas que puedan ayudar a la comunidad que quiera iniciarse en posiciones como SRE o DevOps Engineer.
+El propósito de este documento es preparar una serie de temas que puedan ayudar a la comunidad que quiera iniciarse en posiciones como SRE o DevOps Engineer.
 
 ## Como contribuir
 Si tienes un tema que pueda ayudar o encuentras algún error, por favor manda un PR con el cambio!
@@ -172,6 +172,88 @@ Si tienes un tema que pueda ayudar o encuentras algún error, por favor manda un
   - https://cloud.google.com/vpc/docs/private-access-options
 - Google Service Access
   - https://cloud.google.com/vpc/docs/private-services-access
+
+# Azure
+## Services Overview
+- Vista general de los servicios de Azure
+  - https://azure.microsoft.com/en-us/services/
+  
+## Azure CLI
+- Instalación y configuración
+  - https://docs.microsoft.com/en-us/cli/azure/install-azure-cli
+
+## Azure Active Directory
+- Autenticación
+  - https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis
+
+  - Federación
+    - https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/deployment/how-to-connect-fed-azure-adfs
+
+  - IAM
+    - https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-ops-guide-iam
+
+  - Permisos
+    - https://docs.microsoft.com/en-us/azure/active-directory/roles/permissions-reference
+
+  - Sincronización
+    - https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-whatis
+
+## Resource Groups
+- Qué son y para qué sirven
+  - https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal
+
+## DNS
+- Conceptos básicos
+  - https://docs.microsoft.com/en-us/azure/dns/dns-overview#:~:text=Azure%20DNS%20is%20a%20hosting,as%20your%20other%20Azure%20services
+
+## Calculator
+- Pricing Calculator
+  - https://azure.microsoft.com/en-us/pricing/calculator/
+
+## Compute
+- Tipos de imágenes
+  - https://docs.microsoft.com/en-us/azure/virtual-machines/sizes
+
+## Storage
+- Tipos de almacenamiento
+  - https://docs.microsoft.com/en-us/azure/storage/common/storage-introduction#:~:text=Azure%20Storage%20is%20designed%20to,world%20over%20HTTP%20or%20HTTPS
+
+## Security
+- Firewall
+  - https://docs.microsoft.com/en-us/azure/firewall/
+- Security Center
+  - https://docs.microsoft.com/en-us/azure/security-center/security-center-introduction
+
+## Network
+- Network Security Groups
+  - https://docs.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview
+
+## App Service
+- Qué es Azure App Service
+  - https://docs.microsoft.com/en-us/azure/app-service/
+
+## Azure SQL
+- Información general
+  - https://docs.microsoft.com/en-us/azure/azure-sql/
+
+## Functions
+- Información general
+  - https://docs.microsoft.com/en-us/azure/azure-functions/#:~:text=Azure%20Functions%20is%20a%20cloud,provides%20serverless%20compute%20for%20Azure
+
+## Site Recovery
+- Información General
+  - https://docs.microsoft.com/en-us/azure/site-recovery/
+- Backup
+  - https://docs.microsoft.com/en-us/azure/backup/
+
+## Containers
+- Información general
+  - https://docs.microsoft.com/en-us/azure/container-instances/
+- Container Registry
+  - https://docs.microsoft.com/en-us/azure/container-registry/
+- AKS
+  - https://docs.microsoft.com/en-us/azure/aks/
+
 
 # Automatización de configuración e infraestructura
 ## Terraform
@@ -621,10 +703,12 @@ Si tienes un tema que pueda ayudar o encuentras algún error, por favor manda un
 
 ## Windows
 - Como configurar interfaces de red
+  - Bondig
   - Agregar rutas estáticas
   - Configuración de firewall
 - Manejo de discos
   - Administrador de discos
+  - iSCSI
   - Comandos
     - diskpart
     - chkdsk
@@ -637,8 +721,16 @@ Si tienes un tema que pueda ayudar o encuentras algún error, por favor manda un
   - Servidor de archivos
   - AD
   - DNS
+  - FailOver Cluster
+  - Remote Desktop Services
+  - IIS
+  - Hyper-V
 - Manejo de paquetes
   - Chocolatey
+- Powershell
+  - Importación de módulos
+  - Scripting
+- Instalación de Updates
 
 ## Autenticación
 - LDAP
@@ -653,9 +745,9 @@ Si tienes un tema que pueda ayudar o encuentras algún error, por favor manda un
 - Discos virtuales
 - Hipervisores
   - Hyper-V
+  - VMWare
   - KMV
   - ProxMox
-  - ESX
   - VirtualBox
 - Migración entre hipervisores
 
